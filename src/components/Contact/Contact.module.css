@@ -1,0 +1,23 @@
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+span {
+  height: 20px;
+  width: 30px;
+}

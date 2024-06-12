@@ -1,0 +1,22 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-bottom: 30px;
+}
+
+.nameNumber {
+  display: flex;
+  flex-direction: row;
+}
+
+.error {
+  color: red;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
