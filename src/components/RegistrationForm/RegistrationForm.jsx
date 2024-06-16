@@ -9,7 +9,7 @@ export default function RegistrationForm() {
   const handleSubmit = (values, actions) => {
     dispatch(register(values))
       .unwrap()
-      .then(() => alert("Successful registration!"))
+      .then(() => alert("Successful registration! ✨"))
       .catch(() => alert("Registration error!"));
 
     actions.resetForm();
