@@ -1,0 +1,10 @@
+.backgr {
+  background-image: 
+  /* linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.6),
+      rgba(46, 47, 66, 0.6)
+    ), */ url(/tel.jpg);
+  background-size: cover, 100%;
+  background-attachment: fixed;
+}
