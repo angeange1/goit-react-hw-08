@@ -63,10 +63,6 @@ const authSlice = createSlice({
         state.isLoggedIn = true;
         state.isRefreshing = false;
       }),
-  
-  reducers: {highlightChosenPage: (state, action) => ({...state, chosenPage: action.payload,}),}
 })
-
-export const {highlightChosenPage} = authSlice.actions
 
 export default authSlice.reducer
